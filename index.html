@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Param Maru : Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo gradient-text">parammaru47</a>
+            <div class="header-controls">
+                <nav class="desktop-nav">
+                    <a href="#about" class="nav-link">My Overview</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#education" class="nav-link">Education</a>
+                </nav>
+                <button id="theme-toggle" class="theme-toggle-button">
+                    <svg id="moon-icon" class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
+                        </path>
+                    </svg>
+                    <svg id="sun-icon" class="icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                        </path>
+                    </svg>
+                </button>
+                <button id="mobile-menu-button" class="mobile-menu-btn">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-nav hidden">
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+        </div>
+    </header>
+    <main class="container">
+        <section id="about" class="about-section">
+            <div class="about-text">
+                <h1 class="main-heading">Hi, I'm <span class="gradient-text">Param Maru</span></h1>
+                <p class="sub-heading">A passionate engineer from Mumbai</p>
+                <p class="description">I'm a second year student from Shah & Anchor College of Engineering. Web
+                    Development and Systems Programming are two fields that have my interest like no other field. Aside from
+                    the technical aspects, I am an efficient problem solver and adapt quickly to
+                    unknown circumstances. I aspire to become successful in either
+                    of the fields.</p>
+            </div>
+            <div class="about-image-container">
+                <img src="pfp.jpg" alt="Param Maru Profile Picture"
+                    class="profile-image">
+            </div>
+        </section>
+        <section id="skills" class="content-section">
+            <h2 class="section-heading">My <span class="gradient-text">Skills</span></h2>
+            <div id="skills-container" class="skills-grid"></div>
+        </section>
+        <section id="projects" class="content-section">
+            <h2 class="section-heading">My <span class="gradient-text">Projects</span></h2>
+            <div id="projects-container" class="projects-grid"></div>
+        </section>
+        </section>
+        <section id="education" class="content-section">
+            <h2 class="section-heading">My <span class="gradient-text">Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content card">
+                        <p class="timeline-date">2022</p>
+                        <h3>Class 10 : ICSE Board</h3>
+                        <h4>Friends' Academy, Mulund, Navi Mumbai</h4>
+                        <p>Score : 94.7%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content card">
+                        <p class="timeline-date">2022 — 2024</p>
+                        <h3>Class 12 : Maharashtra State Board</h3>
+                        <h4>Jai Bharat College of Commerce and Science, Mulund West, Mumbai</h4>
+                        <p>Score : 73.67</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content card">
+                        <p class="timeline-date">2024 — Present</p>
+                        <h3>B. Tech : Computer Engineering</h3>
+                        <h4>Mahavir Education Trust's Shah & Anchor Kutchhi College of Engineering, Chembur, Mumbai</h4>
+                        <p> CGPA :
+                            SEM 1: 9.17
+                            SEM 2: 8.82
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section id="contact" class="content-section">
+            <h2 class="section-heading">Contact <span class="gradient-text">Me</span></h2>
+            <div class="contact-details">
+                <div class="contact-links">
+                    <a href="mailto:parammaru47@gmail.com" class="contact-link">parammaru47@gmail.com</a>
+                    <a class="contact-link">+91 77009 56768</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/parammaru47" target="_blank" class="social-link">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
