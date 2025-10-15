@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const projectsData = [
         { title: "CPU Scheduler", description: "CPU scheduling visualizer using d3.js", liveUrl: "https://parammaru47.github.io/cpu-scheduler.io", githubUrl: "https://github.com/parammaru47/cpu-scheduler" },
-        { title: "Linked List Visualizer", description: "Co-developed with github.com/divpaste. Linked list canvas/manipulator using d3.js", liveUrl: "https://divpaste.github.io/llvisual", githubUrl: "https://github.com/divpaste/llvisual" },
-        { title: "Mental Health Tracker", description: "Mental health tracker and logger with AI based sentiment analysis.", liveUrl: "https://parammaru47.github.io/mymentalhealth", githubUrl: "https://github.com/parammru47/mymentalhealth" }
+        { title: "Linked List Visualizer", description: "Co-developed with <a href='https://github.com/divpaste'>github.com/divpaste</a>. Linked list canvas/manipulator using d3.js", liveUrl: "https://divpaste.github.io/llvisual", githubUrl: "https://github.com/divpaste/llvisual" },
+        { title: "Mental Health Tracker", description: "Co-developed with <a href='https://github.com/chaitanyapendse'>github.com/chaitanyapendse</a>. Mental health tracker and logger with AI based sentiment analysis.", liveUrl: "https://parammaru47.github.io/mymentalhealth", githubUrl: "https://github.com/parammru47/mymentalhealth" }
     ];
 
     skillsData.forEach(skill => {
@@ -100,3 +100,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
